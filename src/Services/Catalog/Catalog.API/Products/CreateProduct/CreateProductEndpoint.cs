@@ -26,7 +26,7 @@ namespace Catalog.API.Products.CreateProduct
             .WithSummary("Create Product")
             .WithDescription("Create Product");
 
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }
