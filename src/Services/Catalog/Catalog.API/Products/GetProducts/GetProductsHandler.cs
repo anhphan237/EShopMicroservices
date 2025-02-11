@@ -1,6 +1,4 @@
 ﻿using Marten.Linq.QueryHandlers;
-using Marten.Pagination;
-
 namespace Catalog.API.Products.GetProduct
 {
     public record GetProductsQuery(int? PageNumber = 1, int? PageSize = 10) : IQuery<GetProductsResult>;
